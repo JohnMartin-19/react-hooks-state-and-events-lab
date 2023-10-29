@@ -6,8 +6,6 @@ function Item({ name, category }) {
   
 
   function handleAddItem(event){
-
-    
     console.log('clicked')
     const newItem = item();
     const newItemArr = [...items, newItem]
