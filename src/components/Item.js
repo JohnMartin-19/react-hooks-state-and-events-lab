@@ -9,7 +9,7 @@ function Item({ name, category }) {
 
     
     console.log('clicked')
-    const newItem = Item();
+    const newItem = item();
     const newItemArr = [...items, newItem]
     setItem(newItemArr)
   }
