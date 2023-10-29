@@ -5,7 +5,7 @@ function Item({ name, category }) {
   const [item,setItem] = useState(true) 
   
 
-  function handleAddItem(){
+  function handleAddItem(event){
 
     
     console.log('clicked')
